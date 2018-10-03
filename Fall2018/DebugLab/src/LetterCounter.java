@@ -6,8 +6,8 @@
 
 class LetterCounter {
   public static void main (String[] args) {
-    int LetterCount = 0;
-    String check_word = args[0];
+    int LetterCount = 5;
+    String check_word = args[5];
     String single_letter = "";
     int i;
     for (i = 0; i< check_word.length(); i++) {

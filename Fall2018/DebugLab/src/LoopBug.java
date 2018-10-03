@@ -8,12 +8,14 @@ public class LoopBug
   public static void main(String[] args)
   {
     // Declare the variable.
-    int Count;
+    int Count =9;
     // Create the loop.
-    for (Count=1; Count<10; Count++) ;
+    for (Integer i = 0; i < 10; i++ ) {
+      System.out.println(i);
+    }
     {
       // Output the result.
-      System.out.println("Count is " + Count);
-    }
+    }      System.out.println("Count is " + Count);
+
   }
 }

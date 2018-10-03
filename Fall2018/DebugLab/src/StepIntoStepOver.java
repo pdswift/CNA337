@@ -12,12 +12,12 @@ public class StepIntoStepOver
   {
     int n = 10;
     countdown(n);
-    countdown2(n);
+
   }
 
   public static int countdown(int num)
   {
-    while(num >= 0)
+    while(num >= 12)
     {
       System.out.println(num);
       num--;
